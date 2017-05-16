@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="main" template="/views/templates/main.jsp">
+		<put-attribute name="titulo" value="Spring Fórum"></put-attribute>
+		<put-attribute name="cabecalho" value="/views/templates/cabecalho.jsp"></put-attribute>
+		<put-attribute name="rodape" value="/views/templates/rodape.jsp"></put-attribute>
+	</definition>
+	<definition name="index" extends="main">
+		<put-attribute name="conteudo" value="/views/index.jsp"></put-attribute>
+	</definition>
+	<definition name="signup" extends="main">
+		<put-attribute name="conteudo" value="/views/signup.jsp"></put-attribute>
+		<put-attribute name="titulo" value="Bem vindo(a)!"></put-attribute>
+	</definition>
+</tiles-definitions>
