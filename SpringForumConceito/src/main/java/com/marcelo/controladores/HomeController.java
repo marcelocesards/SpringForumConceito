@@ -13,6 +13,7 @@ public class HomeController {
 	@Autowired
 	private DAOAssunto daoAssunto;
 	
+
 	public String index(Map<String, Object> model){
 		model.put("assuntos", getDaoAssunto().list());
 		model.put("usuarios", getDaoUsuario().list());
