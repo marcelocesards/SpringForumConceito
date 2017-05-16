@@ -10,4 +10,5 @@
 	<mvc:annotation-driven></mvc:annotation-driven>
 	<context:annotation-config></context:annotation-config>
 	<context:component-scan base-package="com.marcelo.controladores"></context:component-scan>
+	<mvc:resources location="/recursos/" mapping="/recursos/**" cache-period="120"></mvc:resources>
 </beans>
