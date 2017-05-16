@@ -7,4 +7,14 @@ public class DAOUsuario {
 		return null;
 	}
 
+	public Usuario getUsuario(String login, String senha) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void persistir(Usuario usuario) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
