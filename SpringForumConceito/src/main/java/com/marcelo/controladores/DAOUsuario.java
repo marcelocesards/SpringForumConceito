@@ -1,4 +1,4 @@
-package com.marcelo.dao;
+package com.marcelo.controladores;
 
 public class DAOUsuario {
 

@@ -5,9 +5,6 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
-import com.marcelo.dao.DAOAssunto;
-import com.marcelo.dao.DAOUsuario;
-
 @Controller
 public class HomeController {
 	@Autowired
